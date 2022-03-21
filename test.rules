@@ -1,0 +1,6 @@
+#57119317 czd
+#---------------
+# homework1
+#---------------
+alert tcp any any -> any 1080 ( msg:"TEST ALERT"; flags:U; content:"hostip"; offset:10; depth:11; sid:57119317; rev:1; )
+
